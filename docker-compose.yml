@@ -36,3 +36,4 @@ dreamstone-php7:
     - .:/var/www/
   environment:
     - SYMFONY_ENV=dev
+    - expose: 8080
